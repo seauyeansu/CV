@@ -1,0 +1,281 @@
+.gridContainer {
+  max-width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 4fr 1fr 1fr 1fr 2fr 4fr;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+  grid-template-areas:
+    "header name contact"
+    "employment icon1 date main1"
+    "academic icon2 title icon3 skill rating"
+    "footer footer footer";
+  grid-column-gap: 5px;
+  grid-row-gap: 15px;
+  font-family: Roboto;
+}
+
+.border {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  background-color: #E7EAF6;
+  display: flex;
+  align-items: center;
+}
+
+.iconStyle {
+  justify-self: center;
+}
+
+h3 {
+  transform: rotate(-90deg);
+}
+
+.name {
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.contact{
+  grid-column-start:8;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contact ul {
+  list-style-type: none;
+  margin-top: 1rem;
+  padding-left: .25rem;
+}
+
+.contact ul > li {
+  padding: .25rem 0;
+}
+
+.employment {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 14;
+}
+
+.icon5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.date1 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.main1 {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.date2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.main2 {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.date3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.main3 {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.date4 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.main4 {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.date5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+.main5 {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+.date6 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+
+.main6 {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+
+.date7 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 8;
+  grid-row-end: 9;
+}
+
+.main7 {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 8;
+  grid-row-end: 9;
+}
+
+.date8 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 9;
+  grid-row-end: 10;
+}
+
+.main8 {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 9;
+  grid-row-end: 10;
+}
+
+.date9 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 10;
+  grid-row-end: 11;
+}
+
+.main9 {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 10;
+  grid-row-end: 11;
+}
+
+.date10 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 11;
+  grid-row-end: 12;
+}
+
+.main10 {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 11;
+  grid-row-end: 12;
+}
+
+.date11 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 12;
+  grid-row-end: 13;
+}
+
+.main11 {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 12;
+  grid-row-end: 13;
+}
+
+.date12 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 13;
+  grid-row-end: 14;
+}
+
+.main12 {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 13;
+  grid-row-end: 14;
+}
+
+.academic {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 14;
+  grid-row-end: 15;
+}
+
+.icon6 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 14;
+  grid-row-end: 15;
+}
+
+.title {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 14;
+  grid-row-end: 15;
+}
+
+.icon7 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 14;
+  grid-row-end: 15;
+}
+
+.skill {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 14;
+  grid-row-end: 15;
+}
+
+.starRating {
+  grid-column-start: 8;
+  grid-column-end: 10;
+  grid-row-start: 14;
+  grid-row-end: 15;
+}
