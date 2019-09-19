@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import classes from './index.css';
+import classes from './index.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAt } from '@fortawesome/free-solid-svg-icons';
 import { faMobileAlt } from '@fortawesome/free-solid-svg-icons';
