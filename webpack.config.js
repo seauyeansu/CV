@@ -7,16 +7,27 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index_bundle.js'
   },
-  module: {
-    rules: [
-      { test: /\.(js)$/, use: 'babel-loader' },
-      { test: /\.css$/, use: [ 'style-loader', 'css-loader' ]}
-    ]
-  },
   mode: 'development',
   plugins: [
     new HtmlWebpackPlugin({
       template: 'app/index.html'
     })
-  ]
-};
+  ],
+  module: {
+    rules: [
+      { test: /\.(js)$/, use: 'babel-loader' },
+      { test: /\.css$/, use: [
+        require.resolve('style-loader'),
+        {
+          loader: require.resolve('css-loader'),
+          options: {
+            modules: {
+              localIdentName: '[name]__[local]__[hash:base64:5]',
+            },
+        	}
+        }
+        ]
+      }
+      ]
+    }
+  }
