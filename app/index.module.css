@@ -291,40 +291,7 @@ h3 {
 
 @media (max-width: 1080px) {
   .gridContainer {
-    grid-template-areas:
-    'name'
-    'contact'
-    'employment'
-    'icon5'
-    'date1'
-    'main1'
-    'employerName1'
-    'date2'
-    'main2'
-    'date3'
-    'main3'
-    'date4'
-    'main4'
-    'date5'
-    'main5'
-    'employerName2'
-    'employerName3'
-    'date6'
-    'main6'
-    'date7'
-    'main7'
-    'employerName4'
-    'date8'
-    'main8'
-    'date9'
-    'main9'
-    'date10'
-    'main10'
-    'academic'
-    'icon6'
-    'title'
-    'icon7'
-    'skill'
-    'starRating';
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
