@@ -279,3 +279,9 @@ h3 {
   grid-row-start: 16;
   grid-row-end: 17;
 }
+
+@media (max-width: 480px) {
+  .gridContainer {
+    
+  }
+}
