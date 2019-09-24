@@ -282,6 +282,6 @@ h3 {
 
 @media (max-width: 480px) {
   .gridContainer {
-    
+    display: block;
   }
 }
