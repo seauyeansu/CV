@@ -42,6 +42,7 @@ h3 {
 p {
   font-size: 10;
 }
+
 .name {
   grid-column-start: 2;
   grid-column-end: 8;
