@@ -9,6 +9,7 @@ import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 import { faCogs } from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 
 function App (props) {
     return (
@@ -25,13 +26,22 @@ function App (props) {
               github="github.com/seauyeansu"
               />
           </div>
+          <div className = {classNames(classes.study, classes.border)}>
+            <h3>Self-Study</h3>
+          </div>
+          <div className = {classes.icon5}>
+          <span className = "fa-layers fa-fw">
+            <FontAwesomeIcon icon= { faCircle } size = "2x"/>
+            <FontAwesomeIcon icon= { faPencilAlt } inverse transform = "right-6"/>
+          </span>
+          </div>
           <div className = {classNames(classes.employment, classes.border)}>
             <h3>Employment</h3>
           </div>
-          <div className = {classNames(classes.icon5, classes.iconStyle)}>
+          <div className = {classes.icon6}>
           <span className = "fa-layers fa-fw">
-            <FontAwesomeIcon icon= { faCircle } size = "2x" />
-            <FontAwesomeIcon icon= { faBriefcase } inverse transform/>
+            <FontAwesomeIcon icon= { faCircle } size = "2x"/>
+            <FontAwesomeIcon icon= { faBriefcase } inverse transform = "right-6"/>
           </span>
           </div>
           <div className = {classes.date1}>
@@ -87,7 +97,7 @@ function App (props) {
           </div>
           <div className = {classes.main6}>
           <p>Manager</p>
-          <p>Large Regional Investment Bank (October 2012 - April 2013)</p>
+          <p><u>Large Regional Investment Bank (October 2012 - April 2013)</u></p>
             <p>My third project was to support the post-merger integration of two client investment banks. My roles and responsibilities include:</p>
               <ul>
               <li>Lead the post-merger integration of Finance workstream;</li>
@@ -96,7 +106,7 @@ function App (props) {
               <li>Prepare merged Finace department to be ready for Legal Day One and Customer Day One; and</li>
               <li>Others.</li>
               </ul>
-          <p>National oil and gas company (December 2011 to September 2012)</p>
+          <p><u>National oil and gas company (December 2011 to September 2012)</u></p>
             <p>My second project was to support the Finance Shared Services Accounts Receivable workstream to develop a finance shared services target operating model. My roles and responsibilities include:</p>
               <ul>
               <li>Conducting client interviews and documentation of services provided by Accounts Receivable Sub-department;</li>
@@ -157,12 +167,12 @@ function App (props) {
           </div>
 
           <div className = {classNames(classes.academic, classes.border)}>
-            <h3>Academic</h3>
+            <h3>Education and Skills</h3>
           </div>
-          <div className = {classNames(classes.icon6, classes.iconStyle)}>
+          <div className = {classes.icon7}>
             <span className = "fa-layers fa-fw">
-            <FontAwesomeIcon icon= { faCircle } size = "2x" />
-            <FontAwesomeIcon icon= { faPencilAlt } inverse transform/>
+            <FontAwesomeIcon icon= { faCircle } size = "2x"/>
+            <FontAwesomeIcon icon= { faGraduationCap } inverse transform = "right-6"/>
             </span>
           </div>
           <div className = {classes.title}>
@@ -176,10 +186,11 @@ function App (props) {
             <li>Bachelor of Science - BS, Applied Accounting, First Class Honours</li>
             </ul>
           </div>
-          <div className = {classNames(classes.icon7, classes.iconStyle)}>
+          <div className = {classes.icon8}>
             <span className = "fa-layers fa-fw">
             <FontAwesomeIcon icon= { faCircle } size = "2x" />
-            <FontAwesomeIcon icon={ faCogs } inverse transform/>
+            <FontAwesomeIcon icon={ faCogs } inverse transform = "right-6"/>
+            </span>
           </div>
           <div className = {classes.skill}>
             <h4>Javascript</h4>
