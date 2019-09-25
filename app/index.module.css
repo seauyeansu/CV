@@ -39,6 +39,9 @@ h3 {
   transform: rotate(-90deg);
 }
 
+p {
+  font-size: 10;
+}
 .name {
   grid-column-start: 2;
   grid-column-end: 8;
@@ -78,6 +81,9 @@ h3 {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  display: flex;
+  position: relative;
+  margin-top: 25px;
 }
 
 .date1 {

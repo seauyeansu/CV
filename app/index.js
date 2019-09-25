@@ -8,6 +8,7 @@ import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 import { faCogs } from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
 function App (props) {
     return (
@@ -28,7 +29,10 @@ function App (props) {
             <h3>Employment</h3>
           </div>
           <div className = {classNames(classes.icon5, classes.iconStyle)}>
-            <FontAwesomeIcon icon={ faBriefcase }/>
+          <span className = "fa-layers fa-fw">
+            <FontAwesomeIcon icon= { faCircle } size = "2x" />
+            <FontAwesomeIcon icon= { faBriefcase } inverse transform/>
+          </span>
           </div>
           <div className = {classes.date1}>
             <p>June 2019 - present</p>
@@ -41,7 +45,7 @@ function App (props) {
               <li>Udemy - "React - The Complete Guide (incl Hooks, React Router, Redux)";</li>
               <li>tylermcginnis.com; and</li>
               <li>others.</li>
-            </ul>  
+            </ul>
           </div>
           <div className = {classes.employerName1}>
             <h2>Binary Group Services @Binary.com (March 2015 - June 2019)</h2>
@@ -156,7 +160,10 @@ function App (props) {
             <h3>Academic</h3>
           </div>
           <div className = {classNames(classes.icon6, classes.iconStyle)}>
-            <FontAwesomeIcon icon={ faPencilAlt }/>
+            <span className = "fa-layers fa-fw">
+            <FontAwesomeIcon icon= { faCircle } size = "2x" />
+            <FontAwesomeIcon icon= { faPencilAlt } inverse transform/>
+            </span>
           </div>
           <div className = {classes.title}>
             <h4>Sunway University College, Malaysia</h4>
@@ -170,12 +177,14 @@ function App (props) {
             </ul>
           </div>
           <div className = {classNames(classes.icon7, classes.iconStyle)}>
-            <FontAwesomeIcon icon={ faCogs }/>
+            <span className = "fa-layers fa-fw">
+            <FontAwesomeIcon icon= { faCircle } size = "2x" />
+            <FontAwesomeIcon icon={ faCogs } inverse transform/>
           </div>
           <div className = {classes.skill}>
             <h4>Javascript</h4>
             <h4>HTML</h4>
-            <h4>CSS</h4>
+            <h4>CSS and SCSS</h4>
             <h4>React</h4>
           </div>
           <div className = {classes.starRating}>
