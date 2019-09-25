@@ -31,7 +31,10 @@ function App (props) {
           </div>
           <div className = {classes.icon5}>
           <span className = "fa-layers fa-fw">
-            <FontAwesomeIcon icon= { faCircle } size = "2x"/>
+            <FontAwesomeIcon
+            icon= { faCircle }
+            color = "#113f67"
+            size = "2x"/>
             <FontAwesomeIcon icon= { faPencilAlt } inverse transform = "right-6"/>
           </span>
           </div>
@@ -40,7 +43,10 @@ function App (props) {
           </div>
           <div className = {classes.icon6}>
           <span className = "fa-layers fa-fw">
-            <FontAwesomeIcon icon= { faCircle } size = "2x"/>
+            <FontAwesomeIcon
+            icon= { faCircle }
+            color = "#113f67"
+            size = "2x"/>
             <FontAwesomeIcon icon= { faBriefcase } inverse transform = "right-6"/>
           </span>
           </div>
@@ -171,7 +177,10 @@ function App (props) {
           </div>
           <div className = {classes.icon7}>
             <span className = "fa-layers fa-fw">
-            <FontAwesomeIcon icon= { faCircle } size = "2x"/>
+            <FontAwesomeIcon
+            icon = { faCircle }
+            color = "#113f67"
+            size = "2x"/>
             <FontAwesomeIcon icon= { faGraduationCap } inverse transform = "right-6"/>
             </span>
           </div>
@@ -188,7 +197,10 @@ function App (props) {
           </div>
           <div className = {classes.icon8}>
             <span className = "fa-layers fa-fw">
-            <FontAwesomeIcon icon= { faCircle } size = "2x" />
+            <FontAwesomeIcon
+            icon= { faCircle }
+            color = "#113f67"
+            size = "2x"/>
             <FontAwesomeIcon icon={ faCogs } inverse transform = "right-6"/>
             </span>
           </div>
@@ -201,19 +213,19 @@ function App (props) {
           <div className = {classes.starRating}>
             <FontAwesomeIcon
               icon={ faStar }
-              color="#6DB65B" />
+              color="#a2a8d3" />
             <FontAwesomeIcon
               icon={ faStar }
-              color="#6DB65B" />
+              color="#a2a8d3" />
             <FontAwesomeIcon
               icon={ faStar }
-              color="#6DB65B" />
+              color="#e7eaf6" />
             <FontAwesomeIcon
               icon={ faStar }
-              color="#000000" />
+              color="#e7eaf6" />
             <FontAwesomeIcon
               icon={ faStar }
-              color="#000000" />
+              color="#e7eaf6" />
 
           </div>
         </div>

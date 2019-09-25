@@ -23,6 +23,10 @@
   font-family: Roboto;
 }
 
+.faCircle {
+  color: #A2A8D3
+}
+
 .border {
   grid-column-start: 1;
   grid-column-end: 1;
@@ -85,6 +89,10 @@ ul, p {
   grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 17;
+}
+
+.faCircle {
+ color: #A2A8D3;
 }
 
 .icon5 {
