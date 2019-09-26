@@ -29,26 +29,30 @@ function App (props) {
           <div className = {classNames(classes.study, classes.border)}>
             <h3>Self-Study</h3>
           </div>
-          <div className = {classes.icon5}>
+          <div className = {classNames(classes.icon5, classes.vl5)}>
           <span className = "fa-layers fa-fw">
             <FontAwesomeIcon
             icon= { faCircle }
             color = "#113f67"
-            size = "2x"/>
+            size = "2x"
+            aria-hidden = "true"/>
             <FontAwesomeIcon icon= { faPencilAlt } inverse transform = "right-6"/>
           </span>
+          <div class = "vl5"></div>
           </div>
           <div className = {classNames(classes.employment, classes.border)}>
             <h3>Employment</h3>
           </div>
-          <div className = {classes.icon6}>
+          <div className = {classNames(classes.icon6, classes.vl6)}>
           <span className = "fa-layers fa-fw">
             <FontAwesomeIcon
             icon= { faCircle }
             color = "#113f67"
-            size = "2x"/>
+            size = "2x"
+            aria-hidden = "true" />
             <FontAwesomeIcon icon= { faBriefcase } inverse transform = "right-6"/>
           </span>
+          <div class = "vl6"></div>
           </div>
           <div className = {classes.date1}>
             <p>June 2019 - present</p>
@@ -123,7 +127,7 @@ function App (props) {
               </ul>
           </div>
           <div className = {classes.employerName2}>
-            <h2>Career Break</h2>
+            <h2>Career Break (April 2014 - March 2015)</h2>
           </div>
           <div className = {classes.employerName3}>
             <h2>Accenture, Kuala Lumpur, Malaysia (April 2010 - April 2014)</h2>
@@ -175,7 +179,7 @@ function App (props) {
           <div className = {classNames(classes.academic, classes.border)}>
             <h3>Education and Skills</h3>
           </div>
-          <div className = {classes.icon7}>
+          <div className = {classNames(classes.icon7, classes.vl7)}>
             <span className = "fa-layers fa-fw">
             <FontAwesomeIcon
             icon = { faCircle }
@@ -183,6 +187,7 @@ function App (props) {
             size = "2x"/>
             <FontAwesomeIcon icon= { faGraduationCap } inverse transform = "right-6"/>
             </span>
+          <div class = "vl7"></div>
           </div>
           <div className = {classes.title}>
             <h4>Sunway University College, Malaysia</h4>
@@ -195,7 +200,7 @@ function App (props) {
             <li>Bachelor of Science - BS, Applied Accounting, First Class Honours</li>
             </ul>
           </div>
-          <div className = {classes.icon8}>
+          <div className = {classNames(classes.icon8, classes.vl8)}>
             <span className = "fa-layers fa-fw">
             <FontAwesomeIcon
             icon= { faCircle }
@@ -203,14 +208,17 @@ function App (props) {
             size = "2x"/>
             <FontAwesomeIcon icon={ faCogs } inverse transform = "right-6"/>
             </span>
+          <div class = "vl8"></div>
           </div>
           <div className = {classes.skill}>
-            <h4>Javascript</h4>
-            <h4>HTML</h4>
-            <h4>CSS and SCSS</h4>
-            <h4>React</h4>
+            <h4>     Javascript</h4>
+            <h4>     HTML</h4>
+            <h4>     CSS and SASS</h4>
+            <h4>     React</h4>
+            <h4>     Web Development</h4>
           </div>
           <div className = {classes.starRating}>
+            <h4 className = "Rating1">
             <FontAwesomeIcon
               icon={ faStar }
               color="#a2a8d3" />
@@ -226,7 +234,75 @@ function App (props) {
             <FontAwesomeIcon
               icon={ faStar }
               color="#e7eaf6" />
-
+            </h4>
+            <h4 className = "Rating2">
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#a2a8d3" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#a2a8d3" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#a2a8d3" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#a2a8d3" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#e7eaf6" />
+            </h4>
+            <h4 className = "Rating3">
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#a2a8d3" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#a2a8d3" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#a2a8d3" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#e7eaf6" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#e7eaf6" />
+            </h4>
+            <h4 className = "Rating4">
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#a2a8d3" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#a2a8d3" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#e7eaf6" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#e7eaf6" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#e7eaf6" />
+            </h4>
+            <h4 className = "Rating5">
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#a2a8d3" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#a2a8d3" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#e7eaf6" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#e7eaf6" />
+            <FontAwesomeIcon
+              icon={ faStar }
+              color="#e7eaf6" />
+            </h4>
           </div>
         </div>
       );

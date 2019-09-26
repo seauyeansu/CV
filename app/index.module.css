@@ -23,10 +23,6 @@
   font-family: Roboto;
 }
 
-.faCircle {
-  color: #A2A8D3
-}
-
 .border {
   grid-column-start: 1;
   grid-column-end: 1;
@@ -56,8 +52,8 @@ ul, p {
 }
 
 .contact{
-  grid-column-start:8;
-  grid-column-end: 10;
+  grid-column-start:10;
+  grid-column-end: 11;
   grid-row-start: 1;
   grid-row-end: 2;
   display: flex;
@@ -91,26 +87,58 @@ ul, p {
   grid-row-end: 17;
 }
 
-.faCircle {
- color: #A2A8D3;
+.vl5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: table;
+  height: 100%;
+}
+
+.vl5::after {
+  content: '';
+  display: table;
+  margin-left: 15px;
+  width: 1px;
+  height: 5%;
+  background-color: #113f67;
+  margin-top:5px;
 }
 
 .icon5 {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
-  grid-row-end: 3;
-  margin-top: 25px;
-  text-align: center;
+  grid-row-end: 16;
+  margin-top: 23px;
+}
+
+.vl6 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 16;
+  display: table;
+  height: 100%;
+}
+
+.vl6::after {
+  content: '';
+  display: table;
+  margin-left: 15px;
+  width: 1px;
+  height: 97%;
+  background-color: #113f67;
+  margin-top:5px;
 }
 
 .icon6 {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-end: 16;
   margin-top: 25px;
-  text-align: center;
 }
 
 .date1 {
@@ -288,25 +316,62 @@ ul, p {
   grid-row-end: 17;
 }
 
+.vl7 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 16;
+  grid-row-end: 17;
+  display: table;
+  height: 100%;
+}
+
+.vl7::after {
+  content: '';
+  display: table;
+  margin-left: 15px;
+  width: 1px;
+  height: 73%;
+  background-color: #113f67;
+  margin-top:5px;
+}
+
 .icon7 {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 16;
   grid-row-end: 17;
-  text-align: center;
   margin-top: 25px;
 }
 
 .title {
   grid-column-start: 3;
-  grid-column-end: 5;
+  grid-column-end: 7;
   grid-row-start: 16;
   grid-row-end: 17;
 }
 
+.vl8 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 16;
+  grid-row-end: 17;
+  display: table;
+  height: 100%;
+}
+
+.vl8::after {
+  content: '';
+  display: table;
+  margin-left: 25px;
+  width: 1px;
+  height: 68%;
+  background-color: #113f67;
+  margin-top:5px;
+}
+
 .icon8 {
-  grid-column-start: 5;
-  grid-column-end: 6;
+  grid-column-start: 7;
+  grid-column-end: 8;
   grid-row-start: 16;
   grid-row-end: 17;
   text-align: center;
@@ -314,18 +379,17 @@ ul, p {
 }
 
 .skill {
-  grid-column-start: 6;
-  grid-column-end: 8;
+  grid-column-start: 8;
+  grid-column-end: 10;
   grid-row-start: 16;
   grid-row-end: 17;
 }
 
 .starRating {
-  grid-column-start: 8;
-  grid-column-end: 10;
+  grid-column-start: 10;
+  grid-column-end: 11;
   grid-row-start: 16;
   grid-row-end: 17;
-  margin-top: 23px;
 }
 
 @media (max-width: 480px) {
