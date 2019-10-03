@@ -424,46 +424,41 @@ ul, p {
   grid-row-end: 17;
 }
 
-@media only screen and (max-width: 768px) {
-  .gridContainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    'name'
-    'contact'
-    'study'
-    'icon5'
-    'date1'
-    'main1'
-    'employment'
-    'icon6'
-    'employerName1'
-    'date2'
-    'main2'
-    'date3'
-    'main3'
-    'date4'
-    'main4'
-    'date5'
-    'main5'
-    'employerName2'
-    'employerName3'
-    'date6'
-    'main6'
-    'date7'
-    'main7'
-    'employerName4'
-    'date8'
-    'main8'
-    'date9'
-    'main9'
-    'date10'
-    'main10'
-    'academic'
-    'icon7'
-    'title'
-    'icon8'
-    'skill'
-    'starRating'
+@media (max-width: 768px) {
+    .name {width: 100%;}
+    .contact {width: 100%;}
+    .study {width: 100%;}
+    .icon5 {width: 100%;}
+    .date1 {width: 100%;}
+    .main1 {width: 100%;}
+    .employment {width: 100%;}
+    .icon6 {width: 100%;}
+    .employerName1 {width: 100%;}
+    .date2 {width: 100%;}
+    .main2 {width: 100%;}
+    .date3 {width: 100%;}
+    .main3 {width: 100%;}
+    .date4 {width: 100%;}
+    .main4 {width: 100%;}
+    .date5 {width: 100%;}
+    .main5 {width: 100%;}
+    .employerName2 {width: 100%;}
+    .employerName3 {width: 100%;}
+    .date6 {width: 100%;}
+    .main6 {width: 100%;}
+    .date7 {width: 100%;}
+    .main7 {width: 100%;}
+    .employerName4 {width: 100%;}
+    .date8 {width: 100%;}
+    .main8 {width: 100%;}
+    .date9 {width: 100%;}
+    .main9 {width: 100%;}
+    .date10 {width: 100%;}
+    .main10 {width: 100%;}
+    .academic {width: 100%;}
+    .icon7 {width: 100%;}
+    .title {width: 100%;}
+    .icon8 {width: 100%;}
+    .skill {width: 100%;}
+    .starRating {width: 100%;}
   }
-}  
