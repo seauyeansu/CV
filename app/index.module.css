@@ -19,14 +19,12 @@
     "date10 main10"
     "academic icon7 title icon8 skill starRating";
   grid-column-gap: 5px;
-  grid-row-gap: 15px;
   font-family: Roboto;
 }
 
 .border {
   grid-column-start: 1;
   grid-column-end: 1;
-  grid-row-start: 1;
   background-color: #E7EAF6;
   display: flex;
   align-items: center;
@@ -77,10 +75,8 @@ ul, p {
   grid-area: study;
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 0;
-  grid-row-end: 4;
-  display: flex;
-  justify-content: flex-start;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .vl5 {
@@ -97,7 +93,7 @@ ul, p {
   display: table;
   margin-left: 15px;
   width: 1px;
-  height: 5%;
+  height: 70%;
   background-color: #113f67;
   margin-top:5px;
 }
@@ -106,8 +102,24 @@ ul, p {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
-  grid-row-end: 16;
+  grid-row-end: 3;
   margin-top: 23px;
+}
+
+.date1 {
+  grid-area: date1;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.main1 {
+  grid-area: main1;
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .employment {
@@ -143,22 +155,6 @@ ul, p {
   grid-row-start: 3;
   grid-row-end: 16;
   margin-top: 25px;
-}
-
-.date1 {
-  grid-area: date1;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.main1 {
-  grid-area: main1;
-  grid-column-start: 4;
-  grid-column-end: 10;
-  grid-row-start: 2;
-  grid-row-end: 3;
 }
 
 .employerName1 {
@@ -359,7 +355,7 @@ ul, p {
   display: table;
   margin-left: 15px;
   width: 1px;
-  height: 73%;
+  height: 75%;
   background-color: #113f67;
   margin-top:5px;
 }
@@ -394,7 +390,7 @@ ul, p {
   display: table;
   margin-left: 25px;
   width: 1px;
-  height: 68%;
+  height: 75%;
   background-color: #113f67;
   margin-top:5px;
 }
@@ -411,17 +407,18 @@ ul, p {
 .skill {
   grid-area: skill;
   grid-column-start: 8;
-  grid-column-end: 10;
+  grid-column-end: 11;
   grid-row-start: 16;
   grid-row-end: 17;
 }
 
-.starRating {
-  grid-area: starRating;
-  grid-column-start: 10;
-  grid-column-end: 11;
-  grid-row-start: 16;
-  grid-row-end: 17;
+table {
+  margin-top: 25px;
+}
+
+tr {
+width: 100%;
+height: 30px;
 }
 
 @media (max-width: 768px) {
