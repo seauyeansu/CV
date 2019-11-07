@@ -10,6 +10,7 @@ import { faCogs } from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faPrint } from '@fortawesome/free-solid-svg-icons';
 
 function App (props) {
     return (
@@ -23,7 +24,7 @@ function App (props) {
             <div className = {classes.contact}>
               <Contact
               email="seauyeansu@gmail.com"
-              mobile="017634474915"
+              mobile="01763447xxxx"
               linkedin="linkedin.com/in/seauyean/"
               github="github.com/seauyeansu"
               />
@@ -335,10 +336,21 @@ function App (props) {
                 </tbody>
               </table>
             </div>
-            </div>
+          </div>
+        </div>
+      </div>
+
+      <div classNames = "row">
+        <div className = {classes.gridContainer}>
+          <div className = {classes.footer}>
+            <a href="javascript:window.print();return false;">
+            <FontAwesomeIcon
+              icon={ faPrint }
+              color="#113f67" alt="Click here to print this page"/></a>
             </div>
           </div>
         </div>
+      </div>
       );
   }
 
