@@ -32,7 +32,8 @@ const contact = (props) => {
         <FontAwesomeIcon
         icon = { faCircle }
         color = "#113f67"/>
-        <FontAwesomeIcon icon = { faGithub } inverse transform = "shrink-6"/></span>{props.github}</li>
+        <FontAwesomeIcon icon = { faGithub } inverse transform = "shrink-6"/></span>
+        <a href="https://github.com/seauyeansu">{props.github}</a></li>
       </ul>
     </div>
   )
