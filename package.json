@@ -10,7 +10,7 @@
     ]
   },
   "scripts": {
-    "create": "webpack"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
