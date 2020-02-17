@@ -60,6 +60,17 @@ function App (props) {
                 <li>tylermcginnis.com; and</li>
                 <li>others.</li>
               </ul>
+              <p>My projects:</p>
+              <ul>
+                <li>http://direct.mekmek.ml/<br>Simple client-side form for new parents to register developed using Javascript, React Framework, Python, Flask and MySQL.</br></li>
+                <ul>
+                  <li>Created form UI</li>
+                  <li>Created MySQL database</li>
+                  <li>Created return message upon clicking 'Submit'</li>
+                  <li>Created database table output file in .csv format</li>
+                </ul>
+                <li>https://seauyeansu.github.io/flight-seat-selector/<br>Simple UI of flight seat available for selection developed using Javascript and React-Redux.</br></li>
+              </ul>
             </div>
           </div>
         </div>
