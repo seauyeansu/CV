@@ -19,7 +19,7 @@ function App (props) {
           <div className = {classes.gridContainer}>
             <div className = {classes.name}>
               <h1>Giselle Su Seau Yean</h1>
-              <p>Front End Developer</p>
+              <p>Your Front-end Developer - Aspires to make your website pixel perfect!</p>
             </div>
             <div className = {classes.contact}>
               <Contact
