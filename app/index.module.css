@@ -38,7 +38,7 @@ h3 {
   transform: rotate(-90deg);
 }
 
-a href, ol, ul, p {
+ol, ul, p {
   font-size: 14px;
 }
 
