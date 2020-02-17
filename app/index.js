@@ -61,18 +61,20 @@ function App (props) {
                 <li>others.</li>
               </ul>
               <p>My projects:</p>
-              <ul>
-                <li>http://direct.mekmek.ml/<br>Simple client-side form for new parents to register developed using Javascript, React Framework, Python, Flask and MySQL.</br></li>
+              <ol>
+                <li><a href = "http://direct.mekmek.ml/">New Parent Registration Form</a></li>
                 <ul>
+                  <li>Simple client-side form for new parents to register developed using Javascript, React Framework, Python, Flask and MySQL.</li>
                   <li>Created form UI</li>
                   <li>Created MySQL database</li>
                   <li>Created return message upon clicking 'Submit'</li>
                   <li>Created database table output file in .csv format</li>
                 </ul>
+                <li><a href = "https://seauyeansu.github.io/flight-seat-selector/">Flight-seat-selector</a></li>
                 <ul>
-                  <li>https://seauyeansu.github.io/flight-seat-selector/<br>Simple UI of flight seat available for selection developed using Javascript and React-Redux.</br></li>
-                </ul>  
-              </ul>
+                  <li>Simple UI of flight seat available for selection developed using Javascript and React-Redux.</li>
+                </ul>
+              </ol>
             </div>
           </div>
         </div>
