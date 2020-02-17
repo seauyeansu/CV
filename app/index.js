@@ -62,6 +62,10 @@ function App (props) {
               </ul>
               <p>My projects:</p>
               <ol>
+                <li><a href = "https://seauyeansu.github.io/CV/dist/">My Resume</a></li>
+                <ul>
+                  <li>Developed using Javasript and React Framework.</li>
+                </ul>
                 <li><a href = "http://direct.mekmek.ml/">New Parent Registration Form</a></li>
                 <ul>
                   <li>Simple client-side form for new parents to register developed using Javascript, React Framework, Python, Flask and MySQL.</li>
