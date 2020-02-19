@@ -74,7 +74,7 @@ function App (props) {
                   <li>Created return message upon clicking 'Submit'</li>
                   <li>Created database table output file in .csv format</li>
                 </ul>
-                <li><a href = "https://seauyeansu.github.io/flight-seat-selector/">Flight-seat-selector</a></li>
+                <li><a href = "https://seauyeansu.github.io/flight-seat-selector/public/">Flight-seat-selector</a></li>
                 <ul>
                   <li>Simple UI of flight seat available for selection developed using Javascript and React-Redux.</li>
                 </ul>
