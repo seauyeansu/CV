@@ -52,21 +52,18 @@ function App (props) {
               <p>June 2019 - present</p>
             </div>
             <div className = {classes.main1}>
-              <p>Front-End Developer (Self-taught)</p>
-              <p>Learning sources include:</p>
+              <p>Front-End Developer</p>
+              <p>I've been always interested in web technologies since the jQuery days but the evolution of SPA development has strengthened up my focus on React library since my first hands-on experiment on the library. Personally, I believe React is the most useful OSS library today since virtual DOM can be manipulated so efficiently regardless on desktop or mobile web, even so there's react native for more performance demanding mobile apps. If your company is looking for front end developers who speak HTML, CSS and JavaScript, I might be the one you're looking for but if React is used in your company then I am the one looking for you.</p>
+              <p>Technologies experience include:</p>
               <ul>
-                <li>w3schools.com;</li>
-                <li>Udemy - "React - The Complete Guide (incl Hooks, React Router, Redux)";</li>
-                <li>tylermcginnis.com; and</li>
+                <li>React Router;</li>
+                <li>React Redux;</li>
+                <li>React Hooks; and</li>
                 <li>others.</li>
               </ul>
               <p>My projects:</p>
               <ol>
-                <li><a href = "https://seauyeansu.github.io/CV/dist/">My Resume</a></li>
-                <ul>
-                  <li>Developed using Javasript and React Framework.</li>
-                </ul>
-                <li><a href = "http://direct.mekmek.ml/">New Parent Registration Form</a></li>
+                <li><a href = "http://direct.mekmek.ml/">Parent Social Platform</a></li>
                 <ul>
                   <li>Simple client-side form for new parents to register developed using Javascript, React Framework, Python, Flask and MySQL.</li>
                   <li>Created form UI</li>
