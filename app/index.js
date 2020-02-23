@@ -19,7 +19,7 @@ function App (props) {
           <div className = {classes.gridContainer}>
             <div className = {classes.name}>
               <h1>Giselle Su Seau Yean</h1>
-              <p>Your Front-end Developer - Aspires to make your website pixel perfect!</p>
+              <p>Your trilingual (English, German, and Chinese) Front-end Developer - Aspires to make your website pixel perfect!</p>
             </div>
             <div className = {classes.contact}>
               <Contact
@@ -35,7 +35,7 @@ function App (props) {
         <div classNames= "row">
           <div className = {classes.gridContainer}>
             <div className = {classNames(classes.study, classes.border)}>
-              <h3>Self-Study</h3>
+              <h3>Experience</h3>
             </div>
             <div className = {classNames(classes.icon5, classes.vl5)}>
             <span className = "fa-layers fa-fw">
@@ -53,7 +53,7 @@ function App (props) {
             </div>
             <div className = {classes.main1}>
               <p>Front-End Developer</p>
-              <p>I've been always interested in web technologies since the jQuery days but the evolution of SPA development has strengthened up my focus on React library since my first hands-on experiment on the library. Personally, I believe React is the most useful OSS library today since virtual DOM can be manipulated so efficiently regardless on desktop or mobile web, even so there's react native for more performance demanding mobile apps. If your company is looking for front end developers who speak HTML, CSS and JavaScript, I might be the one you're looking for but if React is used in your company then I am the one looking for you.</p>
+              <p>I've always been interested in web technologies since the jQuery days but the evolution of SPA development has strengthened up my focus on React library since my first hands-on experiment on the library. Personally, I believe React is the most useful OSS library today since virtual DOM can be manipulated so efficiently regardless on desktop or mobile web, even so there's react native for more performance demanding mobile apps. If your company is looking for front end developers who speak HTML, CSS and JavaScript, I might be the one you're looking for but if React is used in your company then I am the one looking for you.</p>
               <p>Technologies experience include:</p>
               <ul>
                 <li>React Router;</li>
