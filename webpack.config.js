@@ -2,32 +2,26 @@ var path = require('path')
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './app/index.js',
+  entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'public'),
     filename: 'index_bundle.js'
   },
   mode: 'development',
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'app/index.html'
+      template: 'src/index.html'
     })
   ],
   module: {
-    rules: [
-      { test: /\.(js)$/, use: 'babel-loader' },
-      { test: /\.css$/, use: [
-        require.resolve('style-loader'),
-        {
-          loader: require.resolve('css-loader'),
+      rules: [
+        { test: /\.(js)$/, use: {
+          loader: 'babel-loader',
           options: {
-            modules: {
-              localIdentName: '[name]__[local]__[hash:base64:5]',
-            },
-        	}
-        }
-        ]
-      }
-      ]
-    }
-  }
+            presets: ['@babel/preset-env',
+                      '@babel/react',{
+                          'plugins': ['@babel/plugin-proposal-class-properties']}]
+          }}},
+        { test: /\.css$/, use: ['style-loader', 'css-loader']}
+  ]},
+}
