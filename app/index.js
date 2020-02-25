@@ -10,7 +10,7 @@ import { faCogs } from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
-import { faPrint } from '@fortawesome/free-solid-svg-icons';
+import { faLanguage } from '@fortawesome/free-solid-svg-icons';
 
 function App (props) {
     return (
@@ -226,12 +226,12 @@ function App (props) {
             <div className = {classes.title}>
               <h4>Sunway University College, Malaysia</h4>
               <ul>
-              <li>Association Chartered Certified Accountants</li>
-              <li>Institute of Chartered Accountants in England and Wales</li>
+              <li>Member, Association Chartered Certified Accountants</li>
+              <li>Member, Institute of Chartered Accountants in England and Wales</li>
               </ul>
               <h4>Oxford Brookes University</h4>
               <ul>
-              <li>Bachelor of Science - BS, Applied Accounting, First classNamesHonours</li>
+              <li>Bachelor of Science - BS, Applied Accounting, First class Honours</li>
               </ul>
             </div>
             <div className = {classNames(classes.icon8, classes.vl8)}>
@@ -359,10 +359,10 @@ function App (props) {
       <div classNames = "row">
         <div className = {classes.gridContainer}>
           <div className = {classes.footer}>
-            <a href="javascript:window.print();return false;">
             <FontAwesomeIcon
-              icon={ faPrint }
-              color="#113f67" alt="Click here to print this page"/></a>
+              icon={ faLanguage }
+              color="#113f67"/>
+            <p><a href="javascript:window.print();return false;">EN/DE</a></p>
             </div>
           </div>
         </div>
