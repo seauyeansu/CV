@@ -14,8 +14,8 @@ import { faLanguage } from '@fortawesome/free-solid-svg-icons';
 
 function App (props) {
     return (
-      <div classNames= "container-fluid">
-        <div classNames= "row">
+      <div className = "container-fluid">
+        <div className = "row">
           <div className = {classes.gridContainer}>
             <div className = {classes.name}>
               <h1>Giselle Su Seau Yean</h1>
@@ -32,7 +32,7 @@ function App (props) {
           </div>
         </div>
 
-        <div classNames= "row">
+        <div className = "row">
           <div className = {classes.gridContainer}>
             <div className = {classNames(classes.study, classes.border)}>
               <h3>Experience</h3>
@@ -46,7 +46,7 @@ function App (props) {
               aria-hidden = "true"/>
               <FontAwesomeIcon icon= { faPencilAlt } inverse transform = "right-6"/>
             </span>
-            <div classNames= "vl5"></div>
+            <div className = "vl5"></div>
             </div>
             <div className = {classes.date1}>
               <p>June 2019 - present</p>
@@ -81,7 +81,7 @@ function App (props) {
         </div>
 
 
-        <div classNames= "row">
+        <div className = "row">
           <div className = {classes.gridContainer}>
             <div className = {classNames(classes.employment, classes.border)}>
               <h3>Employment</h3>
@@ -95,7 +95,7 @@ function App (props) {
               aria-hidden = "true" />
               <FontAwesomeIcon icon= { faBriefcase } inverse transform = "right-6"/>
             </span>
-            <div classNames= "vl6"></div>
+            <div className = "vl6"></div>
             </div>
             <div className = {classes.employerName1}>
               <h2>Binary Group Services @Binary.com (March 2015 - June 2019)</h2>
@@ -208,7 +208,7 @@ function App (props) {
           </div>
         </div>
 
-        <div classNames= "row">
+        <div className = "row">
           <div className = {classes.gridContainer}>
             <div className = {classNames(classes.academic, classes.border)}>
               <h3>Education and Skills</h3>
@@ -221,7 +221,7 @@ function App (props) {
               size = "2x"/>
             <FontAwesomeIcon icon= { faGraduationCap } inverse transform = "right-6"/>
             </span>
-            <div classNames= "vl7"></div>
+            <div className = "vl7"></div>
             </div>
             <div className = {classes.title}>
               <h4>Sunway University College, Malaysia</h4>
@@ -242,7 +242,7 @@ function App (props) {
               size = "2x"/>
             <FontAwesomeIcon icon={ faCogs } inverse transform = "right-6"/>
             </span>
-            <div classNames= "vl8"></div>
+            <div className = "vl8"></div>
             </div>
 
             <div className = {classes.skill}>
@@ -356,7 +356,7 @@ function App (props) {
         </div>
       </div>
 
-      <div classNames = "row">
+      <div className = "row">
         <div className = {classes.gridContainer}>
           <div className = {classes.footer}>
             <FontAwesomeIcon
