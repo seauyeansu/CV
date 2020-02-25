@@ -372,4 +372,5 @@ function App (props) {
 
 ReactDOM.render(
   <App />,
-  document.getElementById('app'))
+  document.getElementById('app')
+)
