@@ -283,7 +283,7 @@ function App (props) {
                         color="#a2a8d3" />
                       <FontAwesomeIcon
                         icon={ faStar }
-                        color="##a2a8d3" />
+                        color="#a2a8d3" />
                       <FontAwesomeIcon
                         icon={ faStar }
                         color="#e7eaf6" />
@@ -300,7 +300,7 @@ function App (props) {
                         color="#a2a8d3" />
                       <FontAwesomeIcon
                         icon={ faStar }
-                        color="##a2a8d3" />
+                        color="#a2a8d3" />
                       <FontAwesomeIcon
                         icon={ faStar }
                         color="#e7eaf6" />
@@ -320,7 +320,7 @@ function App (props) {
                         color="#a2a8d3" />
                       <FontAwesomeIcon
                         icon={ faStar }
-                        color="##a2a8d3" />
+                        color="#a2a8d3" />
                       <FontAwesomeIcon
                         icon={ faStar }
                         color="#e7eaf6" />
