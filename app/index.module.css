@@ -42,6 +42,11 @@ ol, ul, p {
   font-size: 14px;
 }
 
+img {
+  border-radius: 50%;
+  background: url('./Photo.jpg');
+}
+
 .name {
   grid-area: name;
   grid-column-start: 2;

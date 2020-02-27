@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import classes from './index.module.css';
 import Contact from './Contact';
 import classNames from 'classnames';
+import Photo from './Photo.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
@@ -18,7 +19,7 @@ function App (props) {
         <div className = "row">
           <div className = {classes.gridContainer}>
           <div className = {classes.image}>
-          <img src="0.jpeg" width="256" height="256"/>
+          <img src={Photo} />
           </div>
             <div className = {classes.name}>
               <h1>Giselle Su Seau Yean</h1>
