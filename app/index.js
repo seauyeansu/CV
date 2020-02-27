@@ -34,9 +34,6 @@ function App (props) {
 
         <div className = "row">
           <div className = {classes.gridContainer}>
-            <div className = {classNames(classes.study, classes.border)}>
-              <h3>Experience</h3>
-            </div>
             <div className = {classNames(classes.icon5, classes.vl5)}>
             <span className = "fa-layers fa-fw">
               <FontAwesomeIcon
@@ -83,9 +80,6 @@ function App (props) {
 
         <div className = "row">
           <div className = {classes.gridContainer}>
-            <div className = {classNames(classes.employment, classes.border)}>
-              <h3>Employment</h3>
-            </div>
             <div className = {classNames(classes.icon6, classes.vl6)}>
             <span className = "fa-layers fa-fw">
               <FontAwesomeIcon
@@ -210,9 +204,6 @@ function App (props) {
 
         <div className = "row">
           <div className = {classes.gridContainer}>
-            <div className = {classNames(classes.academic, classes.border)}>
-              <h3>Education and Skills</h3>
-            </div>
             <div className = {classNames(classes.icon7, classes.vl7)}>
             <span className = "fa-layers fa-fw">
             <FontAwesomeIcon
