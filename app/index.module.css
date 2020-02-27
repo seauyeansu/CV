@@ -45,6 +45,7 @@ ol, ul, p {
 img {
   border-radius: 50%;
   background: url('./Photo.jpg');
+  margin-right: 10px;
 }
 
 .name {
