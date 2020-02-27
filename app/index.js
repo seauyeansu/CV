@@ -17,6 +17,9 @@ function App (props) {
       <div className = "container-fluid">
         <div className = "row">
           <div className = {classes.gridContainer}>
+          <div className = {classes.image}>
+          <img src="0.jpeg" width="256" height="256"/>
+          </div>
             <div className = {classes.name}>
               <h1>Giselle Su Seau Yean</h1>
               <p>Your trilingual (English, German, and Chinese) Front-end Developer - Aspires to make your website pixel perfect!</p>
