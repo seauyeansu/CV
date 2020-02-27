@@ -43,7 +43,7 @@ function App (props) {
               aria-hidden = "true"/>
               <FontAwesomeIcon icon= { faPencilAlt } inverse transform = "right-6"/>
             </span>
-            <div className = "vl5"></div>
+
             </div>
             <div className = {classes.date1}>
               <p>June 2019 - present</p>
@@ -89,7 +89,7 @@ function App (props) {
               aria-hidden = "true" />
               <FontAwesomeIcon icon= { faBriefcase } inverse transform = "right-6"/>
             </span>
-            <div className = "vl6"></div>
+
             </div>
             <div className = {classes.employerName1}>
               <h2>Binary Group Services @Binary.com (March 2015 - June 2019)</h2>
@@ -212,7 +212,7 @@ function App (props) {
               size = "2x"/>
             <FontAwesomeIcon icon= { faGraduationCap } inverse transform = "right-6"/>
             </span>
-            <div className = "vl7"></div>
+
             </div>
             <div className = {classes.title}>
               <h4>Sunway University College, Malaysia</h4>
